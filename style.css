@@ -1,0 +1,103 @@
+.navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    background-color: transparent;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+    
+}
+.logo a h1{
+    margin: 15px 50px 15px 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url('images/background.jpg');
+}
+.logo a h1 span{
+    color: #72837A;
+
+    
+}
+.menu{
+    flex: 1;
+    text-align: left;
+    margin-top: 28px;
+   
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+    font-weight: 500;
+    position: relative;
+}
+.menu ul li a:hover{
+    color: #72837A;
+}
+.menu ul li a span{
+    color: #72837A;
+}
+
+
+
+
+
+
+
+footer *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #72837A;
+    padding: 1%;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+.footer-row {
+    display: flex;
+    margin: 0% 5%;
+}
+
+.footer-col {
+    padding: 10px;
+    margin-left: 20%;
+}
+
+.footer-col h4 {
+    font-size: 17px;
+    color: #171C1A;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.footer-col ul li {
+    list-style: none;
+    font-size: 14px;
+    color: #171C1A;
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+    color: #171C1A;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color:#6D6D60;
+    padding-left: 10px;
+}
